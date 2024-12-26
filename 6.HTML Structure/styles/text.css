@@ -1,0 +1,59 @@
+p { /*applys to every paragraph element*/
+  font-family: Roboto;
+  margin-top: 0; /*sets the default top and bottom margins of every p element*/
+  margin-bottom: 0;
+}
+
+.video-title { /*class selector is more specific than p class*/
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 24px; /*the line spacing*/
+  margin-bottom: 5px; /*class selector has higher priority than p selector for margin*/
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-description{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px
+}
+
+.apple-text {
+  background-color: rgb(227, 65, 64);
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
+.span-example {
+  color: red;
+  margin-left: 12px; /*how to add spacing between words*/
+}
+
+.span-example:hover{
+  text-decoration: underline;
+}

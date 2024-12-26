@@ -1,0 +1,52 @@
+.simple-flexbox {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.lightpink {
+  background-color: lightpink;
+}
+
+.two-hundred-px {
+  width: 200px;
+}
+
+.seventy-five-px {
+  width: 75px;
+}
+
+.item-one {
+  width: 50px;
+}
+
+.item-two {
+  flex: 1;
+}
+.item-three {
+  width: 75px;
+}
+
+.spread-flexbox {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border-flexbox {
+  margin-top: 30px;
+  height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

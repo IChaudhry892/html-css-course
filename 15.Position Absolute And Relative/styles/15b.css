@@ -1,0 +1,45 @@
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ad {
+  background-color: gray;
+  border: none;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.close-button {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

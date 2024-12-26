@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice</title>
+  </head>
+  <body style="
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+  ">
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed; /*makes header stick to the top of the page, and it no longer takes up space on the page*/
+      top: 0;
+      /* bottom: 100px; */
+      left: 0;
+      right: 0;
+      height: 50px;
+      z-index: 100; /*elements w/higher z index dipslay in front of elements w/lower z index*/
+    ">header</div>
+
+    <div style="
+      background-color: green;
+      color: white;
+      position: fixed;
+      top: 50px;
+      bottom: 0;
+      left: 0;
+      width: 72px;
+    ">
+      sidebar
+        <div style="
+        /*fixed = placed in the browser window*/
+        /*absolute = placed on the page*/
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 0;
+        right: 0;
+      ">
+        X
+      </div>
+    </div>
+
+    <div style="
+      /*fixed = placed in the browser window*/
+      /*absolute = placed on the page*/
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 60px;
+      right: 10px;
+    ">
+      absolute
+    </div>
+
+    <div style="
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: static; /*static is the default position*/
+    ">div 1</div>
+    <div style="
+      background-color: lightpink;
+      height: 200px;
+      width: 200px;
+      position: relative;
+    ">
+      div 2
+      <div style="
+        /*fixed = placed in the browser window*/
+        /*absolute = placed on the page*/
+        position: absolute;
+        background-color: black;
+        color: white;
+        bottom: 10px;
+        right: 10px;
+      ">
+        5:00
+      </div>
+    </div>
+  </body>
+</html>
